@@ -12,27 +12,62 @@
         <div class="ladyimage">
             <img src="./06b1d343-fa7c-4dd1-b8a9-1f04437b6ac5 1.png">
         </div>
-        
-        <div class="image1">
-            <img src="./Ellipse 10.png">
-        </div>
-        <div class="image2">
-            <img src="./Ellipse 19.png">
-        </div>
-        <div class="image3">
-            <img src="./Ellipse 5.png">
-        </div>
-       
+      
+       <div class="background_imagebox">
+            <img src="./background image.png">
+       </div>
+
         
        
         
     </div>
 
-  <div class="inputcontainer">
-
-  </div>
+ 
+       <form>
+        <div class="navbar">
+            <p class="nav_text1"> Step 1 of 4 </p>
+            <span class="nav_text2"> Exit </span>
+        </div>
+        <div class="inputcontainer"> <p>Create Account</p>
+          <div class="subinput_container">
+            <div class="input1">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Doe"><br><br>
+                <span id="name-error" class="error-message"></span><br><br>
+            </div>
+            
+          <div class="input2">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="johndoe@gmail.com"><br><br>
+          </div>
+          <div class="input3">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="***********"><br><br>
+          </div>
+        
+          <div class="button_box">
+            <button type="submit"  class="submit">Create an Account</button>
+        
+            <button class="nonborder_button1" onclick="signInWithGoogle()">Sign up with Google</button>
+              <div class="google_logo">
+                <img src="./Google logo.png">
+              </div>
+           
+          </div>
+        
+            
+        
+            <button class="nonborder_button2"  placeholder=""> 
+                <p class="login_text1">Already have an account?</p> <span class="login_text2">Log In</span> </button>
+         </div> 
+  
+        </div>
+      
+       </form>
+ 
     
-<script main.js1></script>
+       <script src="page1.js"></script>
+
  </div>   
 </body>
 </html>
